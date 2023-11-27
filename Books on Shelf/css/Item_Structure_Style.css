@@ -1,0 +1,170 @@
+.title{
+    font-family:"Lucida Handwriting", cursive, fantasy;
+    font-size: min(max(100%, 200%),40px);
+    float:left;
+    min-width: 30%;
+    min-height: 30%;
+    overflow: hidden;
+
+}
+a{
+    text-decoration: none;
+}
+
+.break2{
+    display: flex;
+    overflow: auto;
+    min-width: 10%;
+    max-width: 10%;
+    min-height: 100%;
+    max-height: 100%;
+}
+.BorResContentTemplate{
+    display:grid;
+    min-width: 44%;
+    max-width: 44%;
+    min-height: 100%;
+}
+.columnGapLeft{
+    padding-left: 12%;
+    min-width: 10rem;
+    max-width: 10rem;
+}
+.columnGapRight{
+    padding-right: 10%;
+    min-width:5rem;
+    max-width: 5rem;
+}
+.login{
+    display:flex;
+    min-width:70%;
+    max-width: 70%;
+ }
+.headerGap{
+    gap: 2%;
+    justify-content: space-evenly;
+    display:flex;
+}
+.background_img_color{
+    background-color: #01021b;
+}
+.rows{
+    display:flex;
+    min-width:30%;
+    max-width: 30%;
+}
+.rows40Grid{
+
+}
+.rows40LeftPadding{
+    padding-left: 10%;
+}
+.rows40{
+    align-items: flex-start;
+    display: grid;
+    grid-row: 1;
+    min-width:40%;
+    max-width: 40%;
+    min-height: 100%;
+    max-height: 100%;
+}
+.bookHeader{
+    min-width: 100%;
+    max-width: 100%;
+    min-height:60%;
+    max-height: 60%;
+}
+.bookBreak{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 15%;
+    max-height: 15%;
+}
+.bookFooter{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 25%;
+    max-height: 25%;
+}
+.center{
+    text-align: center;
+    justify-content: center;
+}
+.shadow{
+    text-shadow: 3px 3px 3px;
+}
+.subtitle{
+    font-size: 30px;
+    font-family: "Segoe UI Variable", cursive, fantasy;
+    text-align: center;
+    align-content: center;
+}
+button{
+    min-width: 15%;
+    max-width: 15%;
+    min-height: 15%;
+    max-height: 15%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #01021b;
+}
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #BABDC8;
+}
+
+.space_evenly{
+    justify-content: space-evenly;
+}
+.maxWidthBook{
+    padding-right: 5%;
+    min-width: 30%;
+    max-width: 30%;
+    min-height:50%;
+    max-height: 50%;
+    display:block;
+}
+.maxWidthBookC{
+    min-width: 100%;
+    max-width: 100%;
+    min-height:100%;
+    max-height: 100%;
+}
+.buttonPlus{
+    min-width:2rem;
+    max-width: 2rem;
+    max-height: 2rem;
+    min-height: 2rem;
+    float:right;
+}
+.break{
+    display: flex;
+    justify-content: center;
+    max-height: 100px;
+    overflow: auto;
+    padding-top: 25px;
+    width: 100%
+}
+.outline-content{
+    outline-color: #FFFFFF;
+
+}

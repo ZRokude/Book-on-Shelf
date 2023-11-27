@@ -1,0 +1,65 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.center{
+    display:flex;
+    justify-content: center;
+}
+.background_pict{
+    background-image:url("../images/stars-milky-way.jpg");
+    background-size:cover;
+    background-repeat: repeat;
+    position: static;
+    height:100%;
+    width:100%;
+}
+.paddingBottomContainer{
+    padding-bottom: 20%;
+}
+.container
+{
+    display:grid;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    padding-top: 2%;
+    max-width: 100%;
+}
+.header
+{
+    display:flex;
+    height: 4rem;
+    justify-content: space-between;
+    min-height: 4rem;
+    position:sticky;
+    top:0;
+    width:100%;
+}
+.header:hover{
+    background-color: #BABDC8;
+}
+
+.sidebar {
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+}
+.content{
+    flex-wrap:wrap;
+    max-width: 100%;
+    min-width:100%;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    
+}
+.footer{
+    margin-top: 15%;
+    max-height: 12rem;
+    min-height: 12rem;
+    display:flex;
+    width:100%;
+}
+
